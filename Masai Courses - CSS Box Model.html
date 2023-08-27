@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Masai Courses</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+	<style type="text/css">
+		.poppins {
+			font-family: 'Lora', serif;
+			font-family: 'Poppins', sans-serif;
+		}
+		.center {
+			text-align: center;
+		}
+		
+		#parent {
+			display: flex;
+			justify-content: center;
+
+		}
+
+		.child {
+			box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+			height: auto;
+			width: 410px;
+			margin: 20px 30px;
+
+		}
+		.img {
+			width: 410px;
+			height: 240px;
+		}
+		ul {
+			padding-left: 35px;
+		}
+		.left {
+			padding-left: 20px;
+		}
+		hr {
+			width: 90%;
+			opacity: 50%;
+		}
+		.button {
+			padding: 15px;
+			margin: 20px;
+			background: red;
+			color: white;
+			border-radius: 10px;
+			transition: .3s;
+		}
+		.button:hover {
+			background: darkred;
+		}
+		.bottom {
+			margin-bottom: -30px;
+		}
+		.child:nth-child(1) ul {
+			margin-bottom: 42px;
+	</style>
+</head>
+<body>
+<h1 style="font-size: 50px;" class="poppins center">Our Courses</h1>
+<h2 style="font-size: 24px; margin-top: -25px;" class="poppins center">Practice-Based Learning Tracks,<span class="underline-image" style="color: red;">Supercharged By A.I.</span></h2>
+<div class="poppins" id="parent">
+	<div class="child"> 
+		<img class="img" src="C:\Users\abini\Desktop\Masai Assignments\images\software-course-card.svg">
+			<h2 class="poppins left">Software Development</h2>
+				<p style="margin-top: -17px;" class="left">Become job-ready in 30-35 weeks.</p>
+					<hr> 
+						<ul>
+							<li>Opportunities : Full Stack Developer, Backend Developer, Software Engineer & much more. </li>
+							<li>100% live learning with expert instructors.</li>
+							<li>Pay After Placement </li>
+						</ul>
+								<div class="button poppins center">VIEW DETAILS</div> </div>
+	<div class="child">
+		<img class="img" src="C:\Users\abini\Desktop\Masai Assignments\images\data-analytics-card.svg">
+			<h2 class="poppins left">Data Analytics</h2>
+				<p style="margin-top: -17px;" class="left">Become job-ready in 30 weeks.</p>
+					<hr> 
+						<ul>
+							<li>Opportunities : Data Engineer, Data Analyst, Machine Learning Engineer & much more.</li>
+							<li>Learn from expert instructors and hands-on assignments</li>
+							<li>Pay After Placement</li>
+						</ul>
+								<div class="button poppins center">VIEW DETAILS</div> </div>
+</div>
+</body>
+</html>

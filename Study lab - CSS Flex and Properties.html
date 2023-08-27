@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+<style>
+    * {
+        font-family: 'Lora', serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+    body {
+        margin: 0;
+    }
+    .parent {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+        box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    }
+    .parent > div {
+        background: rgb(160,58,180);
+        background: linear-gradient(90deg, rgba(160,58,180,1) 0%, rgba(69,85,252,1) 100%);
+        display: flex;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 50px;
+        height: 100%;
+        color: white;
+        font-weight: 900;
+        font-size: 22px;
+    }
+    .parent > div:not(:nth-child(1)) {
+        background: white;
+        justify-content: flex-end;
+        margin-left: 0;
+        color: black;
+        font-size: initial;
+        
+    }
+    .parent>div:last-child{
+        margin-right: 150px;
+    }
+    .parent > div:nth-child(3) {
+        color: rgb(111, 111, 212);
+    }
+    .parent1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 50px;
+    }
+    .left1 {
+        width: 50%;
+    }
+    .right1 {
+        width: 50%;
+    }
+    .img1 {
+        width: 200px;
+        height: 130px;
+    }
+    p+div {
+        display: flex;
+    }
+    .opacity {
+        opacity: 50%;
+    }
+    .ptext {
+        font-size: 20px;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+        gap: 20px;
+        width: 100%; /* Adjust the width to 100% */
+    }
+    .grid>div {
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        padding: 20px;
+    }
+    .img2 {
+        width: 80px;
+        height: 80px;
+    }
+</style>
+</head>
+<body>
+    <div class="parent">
+        <div>Study Lab</div>
+        <div style="flex-grow: 1;"></div>
+        <div>Home</div>
+        <div>About</div>
+        <div>Course</div>
+        <div>Instructor</div>
+        <div>Blog</div>
+        <div>Contact</div>
+    </div>
+    <br><br>
+    <div class="parent1">
+        <div class="left1">
+            <h4 style="color: rgb(111, 111, 212);">WELCOME TO STUDY LAB</h4>
+            <h1 style="font-size: 45px;">We Are StudyLab An Online Learning Center</h1>
+            <p class="opacity ptext">
+            A small river named Duden flows by their place and supplies it with the necessary regelialia.
+             It is a paradisematic country, in which roasted parts of sentences fly into your mouth. <br><br>
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+             there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+            </p>
+            <div>
+                <img style="margin-right: 20px;" class="img1" src="C:\Users\abini\Desktop\Masai Assignments\images\depositphotos_607107362-stock-photo-group-business-people-working-communicating.jpg">
+                <h3 style="font-size: 20px;">Learn Anything from StudyLab,<br> Watch video</h3>
+            </div>
+        </div>
+        <div class="right1">
+            <div class="grid">
+                <div>
+                    <img class="img2" src="C:\Users\abini\Desktop\Masai Assignments\images\Circle-icons-computer.svg.png">
+                    <h1>Top Quality Content</h1>
+                    <p class="opacity ptext">A small river named <br>Duden flows by their <br>place and supplies</p>
+                </div>
+                <div>
+                    <img class="img2" src="C:\Users\abini\Desktop\Masai Assignments\images\icon.png">
+                    <h1>Highly Skilled Instructor</h1>
+                    <p class="opacity ptext">A small river named <br>Duden flows by their <br>place and supplies</p>
+                </div>
+                <div>
+                    <img class="img2" src="C:\Users\abini\Desktop\Masai Assignments\images\Circle-icons-tools.svg.png">
+                    <h1>World Class & Quiz</h1>
+                    <p class="opacity ptext">A small river named <br>Duden flows by their <br>place and supplies</p>
+                </div>
+                <div>
+                    <img class="img2" src="C:\Users\abini\Desktop\Masai Assignments\images\Circle-icons-download.svg.png">
+                    <h1>Get Certified</h1>
+                    <p class="opacity ptext">A small river named <br>Duden flows by their <br>place and supplies</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
