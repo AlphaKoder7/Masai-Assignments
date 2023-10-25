@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #cdc9c9;
+            margin: 0;
+        }
+        .container {
+            display: grid;
+            position: absolute;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            height: 500px;
+            width: 400px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 40px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            
+        }
+        .container > div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        .container > div:nth-child(1) {
+            grid-column: span 4;
+            height: 80px;
+            margin-bottom: -40px;
+        }
+        .container > div:nth-child(5) {
+            background-color: black;
+            color: white;
+        }
+        .container > div:nth-child(9) {
+            background-color: black;
+            color: white;
+        }
+        .container > div:nth-child(13) {
+            background-color: black;
+            color: white;
+        } .container > div:nth-child(17) {
+            background-color: black;
+            color: white;
+        } .container > div:nth-child(16) {
+            background-color: black;
+            color: white;
+        } .container > div:nth-child(14) {
+            background-color: red;
+            color: white;
+        }
+        h1 {
+            color: rgb(42, 186, 196);
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Masai Calculator</h1>
+    <div class="container">
+        <div></div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>+</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>-</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>x</div>
+        <div>C</div>
+        <div>0</div>
+        <div>=</div>
+        <div>/</div>
+    </div>
+</body>
+</html>

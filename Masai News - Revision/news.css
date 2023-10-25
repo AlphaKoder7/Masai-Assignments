@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding: 5px;
+    font-size: 17px;
+}
+
+#container1 span {
+    color: blue;
+}
+
+#container1 img {
+    border: 1px solid rgb(184, 178, 178);
+    border-radius: 10px;
+}
+
+#h1 {
+    background-color: rgb(249, 245, 255); 
+    height: 80px;
+    padding-bottom: 20px;
+    
+}
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#container1 {
+    display: flex;
+    background-color: rgb(249, 245, 255);   
+}
+
+#container1 > div {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+#buttoncontainer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(249, 245, 255); 
+    margin: 0;
+    padding: 40PX;
+}
+
+.button {
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+    padding: 15px 20px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #f6d8d8; 
+}
+
+#container2 {
+    display: flex;
+}
+
+#container2 > div {
+    border: 1px solid rgb(184, 178, 178);    
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+}
+
+#container2 img {
+    height: 130px;
+    width: 405px;
+}
